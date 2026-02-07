@@ -1,0 +1,41 @@
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+usercard {
+    display: grid;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 50px;
+    margin: 15px;
+    box-sizing: border-box;
+    width: calc(25% - 30px);
+    background-color: #f9f9f9;
+}
+
+usercard h2 {
+    margin: 0 0 10px 0;
+    color: #292828;
+    font-size: 24px;
+}
+
+usercard p {
+    margin: 8px 0;
+    color: #464646;
+    font-size: 16px;
+}
+
+usercard h5 {
+    margin: 8px 0 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+#cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
